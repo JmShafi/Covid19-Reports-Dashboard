@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Charts from "./components/Charts";
-import DataTable from "./components/DataTable";
-import Filters from "./components/Filters";
-import Loader from "./components/Loader";
-import Error from "./components/Error";
+import Charts from "./components/Charts.jsx";
+import DataTable from "./components/DataTable.jsx";
+import Filters from "./components/Filters.jsx";
+import Loader from "./components/Loader.jsx";
+import Error from "./components/Error.jsx";
 
 function App() {
   const [data, setData] = useState([]);
